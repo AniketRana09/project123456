@@ -7,7 +7,7 @@ const Dashboard = () => {
   return (
     <>
       <div className="border border-black/20 m-5 p-5  bg-gray-200 rounded-lg">
-        <div className="flex justify-between items-center">
+        <div className="md:flex justify-between items-center">
           <div>
             <h2 className="text-primary font-bold text-4xl">Dashboard</h2>
             <p>Welcome Back! Here's your Trading overview</p>

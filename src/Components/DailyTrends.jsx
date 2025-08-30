@@ -13,7 +13,7 @@ import Graph from "./Graph";
 const DailyTrends = () => {
   return (
     <>
-      <div className="border border-black/20 m-5 mb-0 p-5 bg-white rounded-lg flex justify-between">
+      <div className="border border-black/20 m-5 mb-0 p-5 bg-white rounded-lg md:flex justify-between">
         <div>
           <div className="flex items-center font-semibold ">
             <span className="bg-blue-200 text-blue-500 p-2 rounded-xl mr-1">
@@ -57,10 +57,10 @@ const DailyTrends = () => {
       </div>
       <div className="border border-black/20 m-5 my-0 p-5 bg-white rounded-lg">
         <div
-          className="flex
-            gap-3 p-6"
+          className="md:flex
+            gap-3 md:p-6 p-3"
         >
-          <div className="border-l-4 border-green-600 shadow-xl/20 w-1/3 px-2 py-2 rounded-lg bg-gradient-to-t from-green-100 to-green-50">
+          <div className="border-l-4 border-green-600 shadow-xl/20 md:w-1/3 px-2 py-2 my-4 rounded-lg bg-gradient-to-t from-green-100 to-green-50">
             <h3>Deposits</h3>
 
             <h2 className="font-bold text-2xl flex items-center  ">
@@ -70,7 +70,7 @@ const DailyTrends = () => {
               $0
             </h2>
           </div>
-          <div className="border-l-4 border-red-600 shadow-xl/20 w-1/3 px-2 py-2 rounded-lg bg-gradient-to-t from-red-100 to-red-50">
+          <div className="border-l-4 border-red-600 shadow-xl/20 md:w-1/3 px-2 py-2 my-4 rounded-lg bg-gradient-to-t from-red-100 to-red-50">
             <h3>Withdrawls</h3>
 
             <h2 className=" font-bold text-2xl flex items-center ">
@@ -80,7 +80,7 @@ const DailyTrends = () => {
               $0
             </h2>
           </div>
-          <div className="border-l-4 border-yellow-600 shadow-xl/20 w-1/3 px-2 py-2 rounded-lg bg-gradient-to-t from-yellow-100 to-yellow-50">
+          <div className="border-l-4 border-yellow-600 shadow-xl/20 md:w-1/3 px-2 py-2 my-4 rounded-lg bg-gradient-to-t from-yellow-100 to-yellow-50">
             <h3>Transactions</h3>
             <h2 className=" font-bold text-2xl flex items-center ">
               <button className="bg-white text-yellow-600 text-xl   rounded-lg m-1 p-1">
@@ -90,7 +90,7 @@ const DailyTrends = () => {
             </h2>
           </div>
 
-          <div className="border-l-4 border-purple-500 shadow-xl/20 w-1/3 px-2 py-2 rounded-lg bg-gradient-to-l from-purple-100 to-purple-50">
+          <div className="border-l-4 border-purple-500 shadow-xl/20 md:w-1/3 px-2 py-2 my-4 rounded-lg bg-gradient-to-l from-purple-100 to-purple-50">
             <h3>IB Partner</h3>
 
             <h2 className=" font-bold text-2xl flex items-center">

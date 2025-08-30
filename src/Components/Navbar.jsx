@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar bg-white  shadow-sm flex justify-between">
+      <div className="navbar bg-white  shadow-sm flex justify-between w-screen ">
         <div>
           <a className="btn btn-ghost text-3xl font-bold text-blue-500">
             Zorex
@@ -18,7 +18,7 @@ const Navbar = () => {
             />
           </div>
           <div className="flex gap-2">
-            <h2>name</h2>
+            <h2 className="hidden md:block font-medium">Aniket</h2>
             <div className="dropdown dropdown-end">
               <div
                 tabIndex={0}
